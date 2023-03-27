@@ -10,7 +10,7 @@ export default function About() {
             <div className="md:absolute md:flex bg-white w-full ">
                 <div className="flex flex-col items-center">
                     <div className="relative w-64 h-64 md:w-96 md:h-80 flex items-center ml-5 pt-10">
-                        <img src="./Logo/logo_2.png" alt="Logo Hortense Laclavière" className="absolute" />
+                        <img src="./Logo/Logo_2.png" alt="Logo Hortense Laclavière" className="absolute" />
                     </div>
                     
                     <div className="pt-4 mt-8 font-dosis md:text-lg">
