@@ -19,7 +19,7 @@ export default function Home() {
         
             <div className="absolute bottom-20 md:bottom-0 md:right-8 flex justify-end px-8 max-w-xl md:max-w-3xl lg:py-32">
           
-                <div className="text-lg border-dashed text-white border-teal-600 border-4 rounded-md bg-slate-500 bg-opacity-70 px-5 py-3 ">
+                <div className="text-lg border-dashed text-white border-teal-600 border-4 rounded-md bg-slate-500 bg-opacity-70 px-5 py-3 text-center md:text-start">
                     <h1 className="md:text-2xl md:mb-4 font-medium font-marker tracking-widest">
                         Hortense Laclavière
                     </h1>

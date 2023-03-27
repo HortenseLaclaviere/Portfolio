@@ -44,24 +44,24 @@ export default function About() {
                         <span className="font-marker border-2 border-teal-600 w-1/2 block mx-auto mt-8"></span></p>
                     </div>
 
-                    <div className="font-dosis text-base md:flex flex-row p-4 md:mx-20 px-14">
-                        <div className="flex flex-col justify-center items-center md:items-start">
-                            <p className="flex items-center pr-4 pb-2 md:pb-4"> <img src="./Picto_noirs/picto_github.png" alt="Logo Github" className="w-8 mr-2"/><a target="_blank" href="https://github.com/HortenseLaclaviere">Mon Github</a></p>
-                            <p className="md:flex items-center hidden sm:block"> <img src="./Picto_noirs/picto_adresse.jpg" alt="Logo adresse" className="w-8 mr-2"/>Paris</p>                       
+                    <div className="font-dosis text-base xl:text-lg md:flex flex-row xl:block p-4 xl:p-1 md:mx-20 px-14 ">
+                        <div className="flex flex-col justify-center items-center md:items-start xl:items-center">
+                            <p className="flex items-center pr-4 pb-2 md:pb-4"> <img src="./Picto_noirs/picto_github.png" alt="Logo Github" className="w-8 xl:w-12 xl:mr-8 mr-2"/><a target="_blank" href="https://github.com/HortenseLaclaviere">Mon Github</a></p>
+                            <p className="md:flex items-center hidden sm:block"> <img src="./Picto_noirs/picto_adresse.jpg" alt="Logo adresse" className="w-8 xl:w-12 xl:mr-8 mr-2"/>Paris</p>                       
                         </div>
-                        <div className="flex flex-col justify-center items-center md:items-start">                            
-                            <p className="flex items-center pr-4 md:pb-4"> <img src="./Picto_noirs/picto_linkedin.jpg" alt="Logo Linkedin" className="w-8 mr-2"/> <a target="_blank" href="https://www.linkedin.com/in/hortense-laclavi%C3%A8re-b02654151/">Mon profil Linkedin</a></p>
-                            <p className="flex items-center"> <img src="./Picto_noirs/picto_tel.jpg" alt="Logo téléphone" className="w-8 mr-2"/>06.76.56.88.86</p>
+                        <div className="flex flex-col justify-center items-center md:items-start xl:items-center">                            
+                            <p className="flex items-center pr-4 md:pb-4"> <img src="./Picto_noirs/picto_linkedin.jpg" alt="Logo Linkedin" className="w-8 xl:w-12 xl:mr-8 mr-2"/> <a target="_blank" href="https://www.linkedin.com/in/hortense-laclavi%C3%A8re-b02654151/">Mon profil Linkedin</a></p>
+                            <p className="flex items-center"> <img src="./Picto_noirs/picto_tel.jpg" alt="Logo téléphone" className="w-8 xl:w-12 xl:mr-8 mr-2"/>06.76.56.88.86</p>
                         </div>
-                        <div className="flex flex-col justify-center items-center md:items-start">
-                            <p className="flex items-center md:pb-1"> <img src="./Picto_noirs/picto_cv.jpg" alt="Logo CV" className="w-8 mr-2"/>Mon CV</p>                            
-                            <p className="flex items-center pr-4"> <img src="./Picto_noirs/picto_mail.jpg" alt="Logo Mail" className="w-8 mr-2"/> hortense.laclaviere@gmail.com</p>
+                        <div className="flex flex-col justify-center items-center md:items-start xl:items-center">
+                            <p className="flex items-center md:pb-1"> <img src="./Picto_noirs/picto_cv.jpg" alt="Logo CV" className="w-8 xl:w-12 xl:mr-8 mr-2"/>Mon CV</p>                            
+                            <p className="flex items-center pr-4"> <img src="./Picto_noirs/picto_mail.jpg" alt="Logo Mail" className="w-8 xl:w-12 xl:mr-8 mr-2"/> hortense.laclaviere@gmail.com</p>
                         </div>
                     </div>
 
                     
 
-                    <div className="mt-5 md:mx-20 text-lg grid grid-cols-5 bg-teal-600 justify-center items-center md:rounded-3xl ">
+                    <div className="mt-5 md:mx-20 xl:my-10 text-lg grid grid-cols-5 bg-teal-600 justify-center items-center md:rounded-3xl ">
                         <div className="flex flex-col justify-center col-span-2">
 
                             <h1 className="font-bold font-marker text-white tracking-widest text-xl text-center -mt-48 md:mt-4 block md:hidden">SOFT-SKILLS</h1>
@@ -77,13 +77,13 @@ export default function About() {
                             
                         </div>
 
-                        <div className="col-span-1">
+                        <div className="col-span-1 xl:my-10">
                         <img src="./Picto_blancs/picto_deco.png" alt="Séparation décorative" className="h-52 mx-auto"/>
                         </div>
 
                         <div className="col-span-2">
                             <h1 className="font-bold font-marker text-white tracking-widest text-xl text-center mt-2 md:mt-0 md:pt-3 ">HARD-SKILLS</h1>
-                            <div className="flex flex-wrap justify-center items-center pt-6  ">
+                            <div className="flex flex-wrap justify-center items-center pt-6 xl:pt-12 ">
 
                             { languages.map((language)=>
                                 <div>                                    
