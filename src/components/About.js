@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { languages } from "../data";
 
 export default function About() {    
@@ -35,7 +34,7 @@ export default function About() {
                 <div className="md:flex md:flex-col  md:w-11/12  md:py-8 ">
                     
                     <div className="items-center text-center">
-                        <h1 className="font-bold font-marker text-teal-600 tracking-widest text-4xl"> À <a className="underline underline-offset-8 decoration-dashed">PROPOS</a></h1>
+                        <h1 className="font-bold font-marker text-teal-600 tracking-widest text-4xl"> À <span className="underline underline-offset-8 decoration-dashed">PROPOS</span></h1>
                     </div>
                     
                     <div className=" mt-5 md:mx-20 px-4 md:px-10 text-justify font-dosis text-lg justify-center items-center inline-block ">
@@ -46,11 +45,11 @@ export default function About() {
 
                     <div className="font-dosis text-base 2xl:text-lg md:flex flex-row 2xl:block p-4 2xl:p-1 md:mx-20 px-14 ">
                         <div className="flex flex-col justify-center items-center md:items-start 2xl:items-center">
-                            <p className="flex items-center pr-4 pb-2 md:pb-4"> <img src="./Picto_noirs/picto_github.png" alt="Logo Github" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/><a target="_blank" href="https://github.com/HortenseLaclaviere">Mon Github</a></p>
+                            <p className="flex items-center pr-4 pb-2 md:pb-4"> <img src="./Picto_noirs/picto_github.png" alt="Logo Github" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/><a target="_blank" rel="noopener noreferrer" href="https://github.com/HortenseLaclaviere">Mon Github</a></p>
                             <p className="md:flex items-center hidden sm:block"> <img src="./Picto_noirs/picto_adresse.jpg" alt="Logo adresse" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/>Paris</p>                       
                         </div>
                         <div className="flex flex-col justify-center items-center md:items-start 2xl:items-center">                            
-                            <p className="flex items-center pr-4 md:pb-4"> <img src="./Picto_noirs/picto_linkedin.jpg" alt="Logo Linkedin" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/> <a target="_blank" href="https://www.linkedin.com/in/hortense-laclavi%C3%A8re-b02654151/">Mon profil Linkedin</a></p>
+                            <p className="flex items-center pr-4 md:pb-4"> <img src="./Picto_noirs/picto_linkedin.jpg" alt="Logo Linkedin" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hortense-laclavi%C3%A8re-b02654151/">Mon profil Linkedin</a></p>
                             <p className="flex items-center"> <img src="./Picto_noirs/picto_tel.jpg" alt="Logo téléphone" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/>06.76.56.88.86</p>
                         </div>
 
