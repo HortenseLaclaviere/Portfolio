@@ -55,7 +55,7 @@ export default function About() {
 
                         <div className="flex flex-col justify-center items-center md:items-start 2xl:items-center">
                             <p className="flex items-center pr-4 md:pb-4"> <img src="./Picto_noirs/picto_cv.jpg" alt="Logo CV" className="w-7 2xl:w-12 2xl:mr-8 mr-2"/> <a target="_blank" href="./CV_Hortense_Laclavière.pdf">Mon CV</a></p>                            
-                            <p className="flex items-center pr-4"> <img src="./Picto_noirs/picto_mail.jpg" alt="Logo Mail" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/> hortense.laclaviere@gmail.com</p>
+                            <p className="flex items-center pr-4"> <img src="./Picto_noirs/picto_mail.jpg" alt="Logo Mail" className="w-8 2xl:w-12 2xl:mr-8 mr-2"/><a target="_blank" rel="noopener noreferrer" href="mailto:hortense.laclaviere@gmail.com">hortense.laclaviere@gmail.com</a></p>
 
                         </div>
                     </div>
