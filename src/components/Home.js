@@ -1,4 +1,6 @@
 import Navbar from "./Navbar";
+import Projects from "./Projects";
+import About from "./About";
 
 export default function Home() {
     return (
@@ -35,8 +37,11 @@ export default function Home() {
                 </div>
        
             </div> 
+
+
         
         </div>
+            
                 
        </section> 
        
