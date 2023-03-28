@@ -1,6 +1,4 @@
 import Navbar from "./Navbar";
-import Projects from "./Projects";
-import About from "./About";
 
 export default function Home() {
     return (
@@ -27,10 +25,10 @@ export default function Home() {
                     </h1>
                     <p className="md:mb-8 leading-relaxed font-dosis ">
                         
-                    <a className="font-semibold md:text-xl text-right">Apprenante à 
-                    <a target="_blank" href="https://adatechschool.fr/" className="underline decoration-dashed underline-offset-8"> Ada Tech School
+                    <span className="font-semibold md:text-xl text-right">Apprenante à 
+                    <a target="_blank" rel="noopener noreferrer" href="https://adatechschool.fr/" className="underline decoration-dashed underline-offset-8"> Ada Tech School
                     </a>
-                    </a>
+                    </span>
                     <br/>
                     <br/>Bienvenue sur mon portfolio de développeuse front-end ! Ici, vous trouverez un aperçu de mes compétences et de mes projets en matière de développement web.
                     </p>
