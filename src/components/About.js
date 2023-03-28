@@ -54,7 +54,7 @@ export default function About() {
                             <p className="flex items-center"> <img src="./Picto_noirs/picto_tel.jpg" alt="Logo téléphone" className="w-8 xl:w-12 xl:mr-8 mr-2"/>06.76.56.88.86</p>
                         </div>
                         <div className="flex flex-col justify-center items-center md:items-start xl:items-center">
-                            <p className="flex items-center md:pb-1"> <img src="./Picto_noirs/picto_cv.jpg" alt="Logo CV" className="w-8 xl:w-12 xl:mr-8 mr-2"/>Mon CV</p>                            
+                            <p className="flex items-center md:pb-1"> <a target="_blank" href="./CV_Hortense_Laclavière.pdf"> <img src="./Picto_noirs/picto_cv.jpg" alt="Logo CV" className="w-8 xl:w-12 xl:mr-8 mr-2"/>Mon CV</a></p>                            
                             <p className="flex items-center pr-4"> <img src="./Picto_noirs/picto_mail.jpg" alt="Logo Mail" className="w-8 xl:w-12 xl:mr-8 mr-2"/> hortense.laclaviere@gmail.com</p>
                         </div>
                     </div>
@@ -67,10 +67,11 @@ export default function About() {
                             <h1 className="font-bold font-marker text-white tracking-widest text-xl text-center -mt-48 md:mt-4 block md:hidden">SOFT-SKILLS</h1>
 
                             <ul className="font-dosis text-lg text-white text-center md:py-5 pt-20 md:pt-0">
+                                <li>Travail d'équipe</li>
                                 <li>Esprit de synthèse</li>
                                 <li>Organisée</li>
                                 <li>Fiable</li>                                
-                                <li>Travail d'équipe</li>
+                                
                             </ul>
                             
                             <h1 className="font-bold font-marker text-white tracking-widest text-xl text-center mt-4 hidden sm:block">SOFT-SKILLS</h1>
