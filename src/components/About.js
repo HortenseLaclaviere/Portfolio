@@ -85,7 +85,7 @@ export default function About() {
 
                         <div className="col-span-2">
                             <h1 className="font-bold font-marker text-white tracking-widest text-xl text-center mt-2 md:mt-0 md:pt-3 ">HARD-SKILLS</h1>
-                            <div className="flex flex-wrap justify-center items-center pt-6 2xl:pt-12 ">
+                            <div className="flex flex-wrap justify-center items-center pt-6 2xl:pt-12 mb-5 md:mb-2">
 
                             { languages.map((language)=>
                                 <div>                                    

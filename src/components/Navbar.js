@@ -13,11 +13,11 @@ export default function Navbar() {
               Projets
             </a>
             <a className="inline-block hover:underline decoration-dashed underline-offset-4 text-base md:text-lg my-4 px-2 md:my-2 md:px-10" href="#about">
-              A propos
+            À propos
             </a>
-            {/* <a className="inline-block hover:underline decoration-dashed underline-offset-4 text-base md:text-lg my-4 px-5 md:my-2 md:px-10" href="#contact">
+            <a className="inline-block hover:underline decoration-dashed underline-offset-4 text-base md:text-lg my-4 px-5 md:my-2 md:px-10" target="_blank" rel="noopener noreferrer" href="mailto:hortense.laclaviere@gmail.com">
               Contact
-            </a> */}
+            </a>
           </div>
         </div>
       </section>
