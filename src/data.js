@@ -22,7 +22,7 @@ export const projects = [
     subtitle: "HTML, Javascript et CSS",
     description:
       "Brain est une extension navigateur pour Chrome sous la forme d'une page d'accueil. Chaque jour Brain propose une oeuvre d'art, une photo historique, et l'un des meilleurs films de tous les temps.",
-    image: "./Images_projets/Brain.gif",
+    image: "./Images_projets/Brain.jpg",
     link: "https://github.com/HortenseLaclaviere/The_Extension_Project",
     alt : "Image de l'extension Brain"
   },
